@@ -46,4 +46,4 @@ def home():
 if __name__ == "__main__":
     utils.loadSavedData()
     print("Starting Server for Realt Estate Price Estimate...")
-    app.run()
+    app.run(host="0.0.0.0", port=5000)
